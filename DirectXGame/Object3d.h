@@ -82,6 +82,12 @@ public: // メンバ変数
 	void SetModel(Model* model) { this->model = model; }
 
 	/// <summary>
+	/// ローカル回転角のセット
+	/// </summary>
+	/// <param name="rot">回転角</param>
+	void SetRotation(XMFLOAT3 rot) { rotation = rot; }
+
+	/// <summary>
 	/// アニメーション開始
 	/// </summary>
 	void PlayAnimation();
